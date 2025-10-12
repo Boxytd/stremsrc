@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es2016",
+    "target": "es2020",
     "module": "commonjs",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
     "strict": true,
+    "esModuleInterop": true,
     "skipLibCheck": true,
-    "rootDir": "src",
-    "outDir": "dist",
+    "forceConsistentCasingInFileNames": true
   },
-  "exclude": ["tests/**/*"]
+  "include": ["src/**/*"]
 }
